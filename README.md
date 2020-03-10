@@ -11,7 +11,7 @@
 
 Use `Node.js` and `Express` to build an API that performs _CRUD_ operations on `blog posts`.
 
-### Project Setup March 10, 2020
+### Project Setup March 10, 2020, Tuesday
 
 - import this repository into your account
 - clone **your copy** of this repository.
