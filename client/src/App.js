@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import './App.css';
 import PostsForm from './components/PostsForm';
-
+import PostsDisplay from './components/PostsDisplay';
 
 const App =() => {
 
@@ -26,6 +26,7 @@ const App =() => {
     <div className="App">
       <h1>POSTS API</h1>
       <PostsForm getPostsBtn={getPosts} />
+      <PostsDisplay postsDisplay={posts} />
     </div>
   );
 }
